@@ -7,11 +7,11 @@ local colorscheme = {
 
 if vim.o.background == 'light' then
   -- blueprint palette (from pi agent theme)
-  colorscheme.editorBackground = config.transparent and 'none' or '#D8DCE0'
-  colorscheme.sidebarBackground = '#CDD3DA'
-  colorscheme.popupBackground = '#CDD3DA'
-  colorscheme.floatingWindowBackground = '#CDD3DA'
-  colorscheme.menuOptionBackground = '#C8CED6'
+  colorscheme.editorBackground = config.transparent and 'none' or '#F0F2F5'
+  colorscheme.sidebarBackground = '#E8EBF0'
+  colorscheme.popupBackground = '#E8EBF0'
+  colorscheme.floatingWindowBackground = '#E8EBF0'
+  colorscheme.menuOptionBackground = '#E0E4EA'
 
   colorscheme.mainText = '#4A4F57'
   colorscheme.emphasisText = '#5E7EA3'
@@ -41,6 +41,8 @@ if vim.o.background == 'light' then
   colorscheme.foregroundEmphasis = '#4A4F57'
   colorscheme.terminalGray = '#8A95A0'
   colorscheme.blue = '#7293B7'
+  colorscheme.typeName = '#7B5EC7'
+  colorscheme.keyword = '#D98C4A'
 else
   -- blueprint dark palette (complementary dark mode)
   colorscheme.editorBackground = config.transparent and 'none' or '#1E2128'
@@ -77,6 +79,8 @@ else
   colorscheme.foregroundEmphasis = '#D8DCE0'
   colorscheme.terminalGray = '#5E6A78'
   colorscheme.blue = '#7293B7'
+  colorscheme.typeName = '#7B5EC7'
+  colorscheme.keyword = '#D98C4A'
 end
 
 return colorscheme

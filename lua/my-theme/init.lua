@@ -152,7 +152,7 @@ local function set_groups()
     -- Repeat = {},
     Label = { fg = colorscheme.syntaxFunction },
     Operator = { fg = colorscheme.syntaxError },
-    Keyword = { link = 'Statement', italic = config.italics.keywords or false },
+    Keyword = { fg = colorscheme.keyword, italic = config.italics.keywords or false },
     Exception = { fg = colorscheme.syntaxError },
 
     PreProc = { link = 'Keyword' },
@@ -161,7 +161,7 @@ local function set_groups()
     Macro = { link = 'Define' },
     PreCondit = { fg = colorscheme.syntaxError },
 
-    Type = { fg = colorscheme.syntaxKeyword },
+    Type = { fg = colorscheme.typeName },
     Struct = { link = 'Type' },
     Class = { link = 'Type' },
 
@@ -294,7 +294,7 @@ local function set_groups()
     },
     ['@type'] = { link = 'Type' },
     ['@type.definition'] = { fg = colorscheme.mainText },
-    ['@type.builtin'] = { fg = colorscheme.syntaxFunction },
+    ['@type.builtin'] = { fg = colorscheme.typeName },
     ['@type.qualifier'] = { fg = colorscheme.syntaxFunction },
     ['@keyword'] = { link = 'Keyword' },
     -- ["@storageclass"] = {},
