@@ -5,7 +5,7 @@ local theme = {}
 local bg = config.transparent and 'NONE' or colorscheme.editorBackground
 
 theme.normal = {
-  a = { bg = colorscheme.blue, fg = colorscheme.editorBackground, gui = 'bold' },
+  a = { bg = colorscheme.keyword, fg = colorscheme.editorBackground, gui = 'bold' },
   b = { bg = bg, fg = colorscheme.commentText },
   c = { bg = bg, fg = colorscheme.editorBackground },
 }
