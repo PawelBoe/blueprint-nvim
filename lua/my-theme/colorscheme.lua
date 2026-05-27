@@ -6,47 +6,47 @@ local colorscheme = {
 }
 
 if vim.o.background == 'light' then
-  -- blueprint: 5-color palette
+  -- blueprint: 5-color palette, high contrast
   -- Cadet Blue #699FA1 | Pastel Cyan #A5D6D9 | Jagged Ice #C3E5E7
   -- Mars Yellow #DF7027 | Earthy Orange #DD8627
-  colorscheme.editorBackground = config.transparent and 'none' or '#F0F2F5'
-  colorscheme.sidebarBackground = '#E8EBF0'
-  colorscheme.popupBackground = '#E8EBF0'
-  colorscheme.floatingWindowBackground = '#E8EBF0'
-  colorscheme.menuOptionBackground = '#E0E4EA'
+  colorscheme.editorBackground = config.transparent and 'none' or '#FAFBFC'
+  colorscheme.sidebarBackground = '#F0F2F5'
+  colorscheme.popupBackground = '#F0F2F5'
+  colorscheme.floatingWindowBackground = '#F0F2F5'
+  colorscheme.menuOptionBackground = '#E8EBF0'
 
-  colorscheme.mainText = '#A5D6D9'
-  colorscheme.emphasisText = '#8BBFC2'
-  colorscheme.commandText = '#A5D6D9'
+  colorscheme.mainText = '#2A3040'
+  colorscheme.emphasisText = '#1E2229'
+  colorscheme.commandText = '#2A3040'
   colorscheme.inactiveText = '#C3E5E7'
   colorscheme.disabledText = '#D8F0F2'
   colorscheme.lineNumberText = '#C3E5E7'
-  colorscheme.selectedText = '#A5D6D9'
+  colorscheme.selectedText = '#2A3040'
   colorscheme.inactiveSelectionText = '#C3E5E7'
 
   colorscheme.windowBorder = '#C3E5E7'
   colorscheme.focusedBorder = '#A5D6D9'
   colorscheme.emphasizedBorder = '#D8F0F2'
 
-  colorscheme.syntaxFunction = '#699FA1'
+  colorscheme.syntaxFunction = '#4A3060'
   colorscheme.syntaxError = '#DF7027'
-  colorscheme.syntaxKeyword = '#A5D6D9'
+  colorscheme.syntaxKeyword = '#3D6A6A'
   colorscheme.errorText = '#DF7027'
   colorscheme.warningText = '#DD8627'
-  colorscheme.linkText = '#699FA1'
+  colorscheme.linkText = '#4A3060'
   colorscheme.commentText = '#C3E5E7'
-  colorscheme.stringText = '#A5D6D9'
-  colorscheme.successText = '#A5D6D9'
+  colorscheme.stringText = '#3D6A6A'
+  colorscheme.successText = '#3D6A6A'
   colorscheme.warningEmphasis = '#DD8627'
   colorscheme.specialKeyword = '#DD8627'
   colorscheme.syntaxOperator = '#C3E5E7'
-  colorscheme.foregroundEmphasis = '#8BBFC2'
+  colorscheme.foregroundEmphasis = '#1E2229'
   colorscheme.terminalGray = '#C3E5E7'
-  colorscheme.blue = '#699FA1'
+  colorscheme.blue = '#4A3060'
   colorscheme.typeName = '#DF7027'
   colorscheme.keyword = '#DD8627'
-  colorscheme.funcColor = '#699FA1'
-  colorscheme.variable = '#A5D6D9'
+  colorscheme.funcColor = '#4A3060'
+  colorscheme.variable = '#2A3040'
 else
   -- blueprint dark: same 5 colors, brightened for dark bg
   colorscheme.editorBackground = config.transparent and 'none' or '#1E2128'
