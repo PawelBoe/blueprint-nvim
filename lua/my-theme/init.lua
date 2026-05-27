@@ -141,12 +141,12 @@ local function set_groups()
     Boolean = { fg = colorscheme.syntaxFunction },
     Float = { link = 'Number' },
 
-    Identifier = { fg = colorscheme.variable },
+    Identifier = { fg = colorscheme.mainText },
     Function = { fg = colorscheme.funcColor },
     Method = { fg = colorscheme.funcColor },
     Property = { fg = colorscheme.syntaxFunction },
     Field = { link = 'Property' },
-    Parameter = { fg = colorscheme.variable },
+    Parameter = { fg = colorscheme.mainText },
     Statement = { fg = colorscheme.syntaxError },
     Conditional = { fg = colorscheme.syntaxError },
     -- Repeat = {},
@@ -162,8 +162,8 @@ local function set_groups()
     PreCondit = { fg = colorscheme.syntaxError },
 
     Type = { fg = colorscheme.typeName },
-    Struct = { link = 'Type' },
-    Class = { link = 'Type' },
+    Struct = { fg = colorscheme.typeName },
+    Class = { fg = colorscheme.typeName },
 
     -- StorageClass = {},
     -- Structure = {},
@@ -283,13 +283,13 @@ local function set_groups()
     ['@operator'] = { link = 'Operator' },
     ['@exception'] = { link = 'Exception' },
     ['@variable'] = {
-      fg = colorscheme.variable,
+      fg = colorscheme.mainText,
       italic = config.italics.variables or false,
     },
-    ['@variable.builtin'] = { fg = colorscheme.variable },
-    ['@variable.member'] = { fg = colorscheme.variable },
+    ['@variable.builtin'] = { fg = colorscheme.mainText },
+    ['@variable.member'] = { fg = colorscheme.mainText },
     ['@variable.parameter'] = {
-      fg = colorscheme.variable,
+      fg = colorscheme.mainText,
       italic = config.italics.variables or false,
     },
     ['@type'] = { link = 'Type' },
