@@ -144,7 +144,7 @@ local function set_groups()
     Identifier = { fg = colorscheme.mainText },
     Function = { fg = colorscheme.funcColor },
     Method = { fg = colorscheme.funcColor },
-    Property = { fg = colorscheme.syntaxFunction },
+    Property = { fg = colorscheme.mainText },
     Field = { link = 'Property' },
     Parameter = { fg = colorscheme.mainText },
     Statement = { fg = colorscheme.syntaxError },
@@ -162,8 +162,8 @@ local function set_groups()
     PreCondit = { fg = colorscheme.syntaxError },
 
     Type = { fg = colorscheme.typeName },
-    Struct = { fg = colorscheme.typeName },
-    Class = { fg = colorscheme.typeName },
+    Struct = { link = 'Type' },
+    Class = { link = 'Type' },
 
     -- StorageClass = {},
     -- Structure = {},
