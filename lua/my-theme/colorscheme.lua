@@ -40,9 +40,11 @@ if vim.o.background == 'light' then
   colorscheme.syntaxOperator = '#8A95A0'
   colorscheme.foregroundEmphasis = '#4A4F57'
   colorscheme.terminalGray = '#8A95A0'
-  colorscheme.blue = '#7293B7'
+  colorscheme.blue = '#5B6FD6'
   colorscheme.typeName = '#7B5EC7'
-  colorscheme.keyword = '#D98C4A'
+  colorscheme.keyword = '#DD7A5F'
+  colorscheme.funcColor = '#4A6BF5'
+  colorscheme.variable = '#D45A5A'
 else
   -- blueprint dark palette (complementary dark mode)
   colorscheme.editorBackground = config.transparent and 'none' or '#1E2128'
@@ -78,9 +80,11 @@ else
   colorscheme.syntaxOperator = '#5E6A78'
   colorscheme.foregroundEmphasis = '#D8DCE0'
   colorscheme.terminalGray = '#5E6A78'
-  colorscheme.blue = '#7293B7'
+  colorscheme.blue = '#5B6FD6'
   colorscheme.typeName = '#7B5EC7'
-  colorscheme.keyword = '#D98C4A'
+  colorscheme.keyword = '#DD7A5F'
+  colorscheme.funcColor = '#4A6BF5'
+  colorscheme.variable = '#D45A5A'
 end
 
 return colorscheme
