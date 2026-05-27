@@ -42,9 +42,9 @@ if vim.o.background == 'light' then
   colorscheme.foregroundEmphasis = '#2A2F36'
   colorscheme.terminalGray = '#8A95A0'
   colorscheme.blue = '#7A8BA3'
-  colorscheme.typeName = '#C45A5A'
-  colorscheme.keyword = '#D98C4A'
-  colorscheme.funcColor = '#DD7A5F'
+  colorscheme.typeName = '#D94040'
+  colorscheme.keyword = '#E06A2A'
+  colorscheme.funcColor = '#E87530'
   colorscheme.variable = '#3D4550'
 else
   -- blueprint dark: muted grays, orange-red accents
@@ -83,9 +83,9 @@ else
   colorscheme.foregroundEmphasis = '#D8DCE0'
   colorscheme.terminalGray = '#5E6A78'
   colorscheme.blue = '#5E6A78'
-  colorscheme.typeName = '#C45A5A'
-  colorscheme.keyword = '#D98C4A'
-  colorscheme.funcColor = '#DD7A5F'
+  colorscheme.typeName = '#D94040'
+  colorscheme.keyword = '#E06A2A'
+  colorscheme.funcColor = '#E87530'
   colorscheme.variable = '#B8BFC6'
 end
 
