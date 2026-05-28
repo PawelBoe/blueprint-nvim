@@ -7,11 +7,11 @@ local colorscheme = {
 
 if vim.o.background == 'light' then
   -- blueprint light: direct from blueprint theme
-  colorscheme.editorBackground = config.transparent and 'none' or '#D8DCE0'
-  colorscheme.sidebarBackground = '#CDD3DA'
-  colorscheme.popupBackground = '#CDD3DA'
-  colorscheme.floatingWindowBackground = '#CDD3DA'
-  colorscheme.menuOptionBackground = '#C8CED6'
+  colorscheme.editorBackground = config.transparent and 'none' or '#FAFBFC'
+  colorscheme.sidebarBackground = '#F2F4F6'
+  colorscheme.popupBackground = '#F2F4F6'
+  colorscheme.floatingWindowBackground = '#F2F4F6'
+  colorscheme.menuOptionBackground = '#EBEEF0'
 
   colorscheme.mainText = '#4A4F57'
   colorscheme.emphasisText = '#5E7EA3'
@@ -47,11 +47,11 @@ if vim.o.background == 'light' then
   colorscheme.variable = '#4A4F57'
 else
   -- blueprint dark: inverted palette with same accents
-  colorscheme.editorBackground = config.transparent and 'none' or '#2A2D36'
-  colorscheme.sidebarBackground = '#252830'
-  colorscheme.popupBackground = '#32363F'
-  colorscheme.floatingWindowBackground = '#32363F'
-  colorscheme.menuOptionBackground = '#3A3F4A'
+  colorscheme.editorBackground = config.transparent and 'none' or '#3A3F4A'
+  colorscheme.sidebarBackground = '#32363F'
+  colorscheme.popupBackground = '#404550'
+  colorscheme.floatingWindowBackground = '#404550'
+  colorscheme.menuOptionBackground = '#4A4F5A'
 
   colorscheme.mainText = '#B8E8EB'
   colorscheme.emphasisText = '#A5D6D9'
