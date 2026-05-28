@@ -137,12 +137,12 @@ local function set_groups()
       italic = config.italics.strings or false,
     },
     Character = { fg = colorscheme.stringText },
-    Number = { fg = colorscheme.foregroundEmphasis, bold = true },
+    Number = { fg = colorscheme.foregroundEmphasis },
     Boolean = { fg = colorscheme.syntaxFunction },
     Float = { link = 'Number' },
 
     Identifier = { fg = colorscheme.mainText },
-    Function = { fg = colorscheme.funcColor },
+    Function = { fg = colorscheme.funcColor, bold = true },
     Method = { fg = colorscheme.funcColor },
     Property = { fg = colorscheme.mainText },
     Field = { link = 'Property' },
@@ -161,7 +161,7 @@ local function set_groups()
     Macro = { link = 'Define' },
     PreCondit = { fg = colorscheme.syntaxError },
 
-    Type = { fg = colorscheme.typeName },
+    Type = { fg = colorscheme.keyword },
     Struct = { link = 'Type' },
     Class = { link = 'Type' },
 
@@ -294,7 +294,7 @@ local function set_groups()
     },
     ['@type'] = { link = 'Type' },
     ['@type.definition'] = { fg = colorscheme.mainText },
-    ['@type.builtin'] = { fg = colorscheme.typeName },
+    ['@type.builtin'] = { fg = colorscheme.keyword },
     ['@type.qualifier'] = { fg = colorscheme.syntaxFunction },
     ['@keyword'] = { link = 'Keyword' },
     -- ["@storageclass"] = {},

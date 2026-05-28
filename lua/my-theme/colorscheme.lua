@@ -7,7 +7,7 @@ local colorscheme = {
 
 if vim.o.background == 'light' then
   -- blueprint light: direct from blueprint theme
-  colorscheme.editorBackground = config.transparent and 'none' or '#D8DCE0'
+  colorscheme.editorBackground = config.transparent and 'none' or '#F0F4F5'
   colorscheme.sidebarBackground = '#CDD3DA'
   colorscheme.popupBackground = '#CDD3DA'
   colorscheme.floatingWindowBackground = '#CDD3DA'
