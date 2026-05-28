@@ -142,7 +142,7 @@ local function set_groups()
     Float = { link = 'Number' },
 
     Identifier = { fg = colorscheme.mainText },
-    Function = { fg = colorscheme.funcColor, bold = true },
+    Function = { fg = colorscheme.funcColor },
     Method = { fg = colorscheme.funcColor },
     Property = { fg = colorscheme.mainText },
     Field = { link = 'Property' },
